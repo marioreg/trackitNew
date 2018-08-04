@@ -1,0 +1,86 @@
+<nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#" style="font-family:'Pacifico'">
+       Track it
+        </a>
+        <a href="/logout">Logout</a>
+        <h2 style=>{{name}} {{last}} {{id1}}</h2>
+</nav>
+
+    <main>
+
+    <div class="row">
+        <div class="col-sm-2">
+
+        </div>
+        <div class="col-sm-8" style="margin-top: 20px; background-color:white">
+            <form id="new-guide">
+                <div class="form-row">
+                    <div class="col-4">
+                        <input type="text" class="form-control" id="carrier" placeholder="Carrier">
+                    </div>
+                    <div class="col-4">
+                        <input type="text" class="form-control" id="tracking" placeholder="# Tracking">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+
+            </form>
+        </div>
+        <div class="col-sm-2">
+
+        </div>
+    </div>
+    </div>
+
+
+ {{!-- <h2>{{name}} {{last}}</h2> --}}
+<label id='userhbs' for="">{{id1}}</label>
+
+    <div class="row" style="margin-top: 20px">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <div class="guide-container">
+                <table class="table table-hover table table-bordered">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Paqueteria</th>
+                            <th scope="col">Guia</th>
+                            <th scope="col">Salida</th>
+                            <th scope="col">Destino</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <td>@fat</td>
+                            <td>@fat</td>
+                            <td>@mdo</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+
+
+
+
+</main>
+
